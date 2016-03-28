@@ -1,0 +1,3 @@
+[servers]
+www1 ansible_host=www1.kbu.freifunk.net ansible_port=2310 sudo=root ssh_args=-4 
+icvpn1 ansible_host=icvpn1.kbu.freifunk.net ansible_port=2314 sudo=root ssh_args=-4 
