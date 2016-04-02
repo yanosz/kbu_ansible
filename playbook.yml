@@ -2,4 +2,11 @@
   become: yes
   become_user: root
   roles:
-    - kbu_backuppc
+  - kbu_backuppc
+
+- hosts: jenkins2
+  become: yes
+  become_user: root
+  roles:
+  - kbu_jenkins_website
+
